@@ -1,11 +1,11 @@
 ---
-title: "A Mini Bookdown"
-author: "Your Name"
+title: "Alma Docs Site"
+author: "M Stewart"
 site: bookdown::bookdown_site
 documentclass: book
 classoption: openany
 ---
 
-# Create your open textbook
+# Alma Docs Landing Page
 
-Hello, world!!!
+This is the landing page for indication and normalization rules and processes in Alma at the University of Delaware.
