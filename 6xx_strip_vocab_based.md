@@ -1,0 +1,28 @@
+rule "remove subject headings from vocabularies as directed by the department"
+when
+	(TRUE)
+then
+	removeField "6**" if (exists "6**.{*,7}.2.abne")
+	removeField "6**" if (exists "6**.{*,7}.2.bidex")
+	removeField "6**" if (exists "6**.{*,7}.2.eclas")
+	removeField "6**" if (exists "6**.{*,7}.2.fes")
+	removeField "6**" if (exists "6**.{*,7}.2.fmesh")
+	removeField "6**" if (exists "6**.{*,7}.2.gnd")
+	removeField "6**" if (exists "6**.{*,7}.2.gtt")
+	removeField "6**" if (exists "6**.{*,7}.2.larpcal")
+	removeField "6**" if (exists "6**.{*,7}.2.lemac")
+	removeField "6**" if (exists "6**.{*,7}.2.lemb")
+	removeField "6**" if (exists "6**.{*,7}.2.nli")
+	removeField "6**" if (exists "6**.{*,7}.2.nta")
+	removeField "6**" if (exists "6**.{*,7}.2.qlsp")
+	removeField "6**" if (exists "6**.{*,7}.2.ram")
+	removeField "6**" if (exists "6**.{*,7}.2.rasuqam")
+	removeField "6**" if (exists "6**.{*,7}.2.renib")
+	removeField "6**" if (exists "6**.{*,7}.2.reo")
+	removeField "6**" if (exists "6**.{*,7}.2.rero")
+	removeField "6**" if (exists "6**.{*,7}.2.rvmgd")
+	removeField "6**" if (exists "6**.{*,7}.2.sao")
+	removeField "6**" if (exists "6**.{*,7}.2.sfit")
+	removeField "6**" if (exists "6**.{*,7}.2.stw")
+	removeField "6**" if (exists "6**.{*,7}.2.swd")
+end
